@@ -1,0 +1,24 @@
+<div class="container">
+  <h1>FormSubmit Demo</h1>
+  <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
+    <div>
+      <div>
+        <div>
+          <label name="name">Nombre</label>
+          <input type="text" name="name">
+        </div>
+        <div class="col">
+          <label name="email">Email</label>
+          <input type="text" name="email">
+        </div>
+      </div>
+    </div>
+    <div>
+      <label name="message">Mensaje</label>
+      <textarea name="message"></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+    <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+    <input type="hidden" name="_captcha" value="false">
+  </form>
+</div>
